@@ -1,0 +1,39 @@
+{
+  "name": "personal-ai",
+  "version": "1.1.0",
+  "description": "Personal AI assistant focused on Data Science, AI/ML, and voice-based interaction",
+  "main": "server.js",
+  "type": "module",
+  "private": true,
+
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "lint": "echo \"No lint configured yet\""
+  },
+
+  "engines": {
+    "node": ">=18.0.0"
+  },
+
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2"
+  },
+
+  "keywords": [
+    "personal-ai",
+    "ai-assistant",
+    "data-science",
+    "machine-learning",
+    "voice-ai",
+    "murf",
+    "gemini-api",
+    "nodejs"
+  ],
+
+  "author": "Kunal Kumar",
+  "license": "MIT"
+}

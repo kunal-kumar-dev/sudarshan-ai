@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SUDARSHAN AI – Dev Terminal</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="scanlines"></div>
+
+<div class="terminal">
+  <div class="header">
+    <div class="status">
+      <div class="dot"></div>
+      <span>SUDARSHAN_AI_ONLINE</span>
+    </div>
+    <div class="version">SYS.V1.0</div>
+  </div>
+
+  <div class="messages" id="messages"></div>
+
+  <div class="controls">
+    <select id="voiceSelect">
+      <option value="en-IN-isha">🇮🇳 Isha (Hindi + English)</option>
+    </select>
+
+    <button id="voiceToggle" class="btn">🔇 VOICE OFF</button>
+    <button id="micBtn" class="btn">🎤 SPEAK</button>
+  </div>
+
+  <div class="input-area">
+    <span class="prompt">root@sudarshan:~$</span>
+
+    <!-- 🔥 MULTI-LINE INPUT -->
+    <textarea
+      id="input"
+      rows="1"
+      placeholder="Enter command..."
+      autocomplete="off"></textarea>
+
+    <button id="sendBtn" class="btn-send">EXECUTE</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
